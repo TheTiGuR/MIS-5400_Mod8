@@ -34,6 +34,9 @@ def inspect_data():
             print('item is: ' + item)
 
 
+ # Data size , datatypes,fields
+
+
 ################
 # Run all the things
 ################
