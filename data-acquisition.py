@@ -29,7 +29,7 @@ def inspect_data():
     print('Processing data here')
     with open(r'species.json') as json_file:
         parsed_json_file = json.load(json_file)
-
+        print('Fields of the dataset are:')
         for item in parsed_json_file['results']:
             print(item['kingdom'],
             item['scientificName'], item['canonicalName'])
