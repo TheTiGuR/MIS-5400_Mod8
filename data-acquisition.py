@@ -10,7 +10,7 @@ def the_conspirators():
     print('''This project brought to you by: 
     Chris Simiskey
     Varsha Mandadi
-    Kristen Sohm    
+    Kristen Sohm    #is here
     ''')
 
 # Function to retrieve data from the API
