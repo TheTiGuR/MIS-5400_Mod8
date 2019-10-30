@@ -30,12 +30,12 @@ def inspect_data():
     with open(r'species.json') as json_file:
         parsed_json_file = json.load(json_file)
 
-        for item in parsed_json_file:
-            print('item is: ' + item)
-
+        for item in parsed_json_file['results']:
+            print(item['kingdom'],
+            item['scientificName'], item['canonicalName'])
 
  # Data size , datatypes,fields
-
+'''Data types are Kingdom, Scientific Name, and Canonical Name'''
 
 ################
 # Run all the things
