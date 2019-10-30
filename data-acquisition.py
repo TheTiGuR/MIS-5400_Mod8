@@ -10,7 +10,7 @@ def the_conspirators():
     print('''This project brought to you by: 
     Chris Simiskey
     Varsha Mandadi
-    Kristen Sohm    
+    Kristen Sohm    #is here
     ''')
 
 # Function to retrieve data from the API
@@ -30,9 +30,9 @@ def inspect_data():
     with open(r'species.json') as json_file:
         parsed_json_file = json.load(json_file)
 
-        for item in parsed_json_file:
-            print('item is: ' + item)
-
+        for item in parsed_json_file['results']:
+            print(item['kingdom'],
+            item['scientificName'], item['canonicalName'])
 
  # Data size , datatypes,fields
  # Data size- 20 rows
