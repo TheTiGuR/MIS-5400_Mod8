@@ -35,6 +35,27 @@ def inspect_data():
 
 
  # Data size , datatypes,fields
+ # Data size- 20 rows
+ #
+def data_types():
+    print('''In the result set of json species these are  the following data types in a single record: 
+    
+    string-11
+    integer-6
+    bool-2
+    datetime-2
+    list-2
+    dictionary-1  
+    ''')
+
+
+def data_quality():
+    print(''' quality of data is: 
+         We think that the data quality is pretty good as per the results and the source
+         source:https://www.gbif.org/
+        ''')
+
+
 
 
 ################
@@ -45,3 +66,5 @@ if __name__ == '__main__':
     the_conspirators()
     get_data()
     inspect_data()
+    data_types()
+    data_quality()
